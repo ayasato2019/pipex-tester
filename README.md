@@ -14,3 +14,33 @@ chmod 755 tester-pipex.sh
 ```
 ./tester-pipex.sh
 ```
+
+## result
+```
+test 1 cat  wc
+OK
+
+test 2 ls wc -l
+OK
+
+test 3 grep a wc -m
+OK
+
+test 4 ls -a wc -m
+OK
+
+test 5 wc -l wc -m
+OK
+
+test 6 wc -l wc -m
+OK
+
+test 6 wc -l wc -m
+OK
+
+test 8 grep a wc -m
+OK
+
+test 9 lst echo
+OK
+```
