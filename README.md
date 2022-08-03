@@ -4,7 +4,7 @@
 1. Place in the current directory of pipex Makefile
 ```
 pipex 	-- Makefile
-		-- tester-pipex.sh
+	-- tester-pipex.sh
 ```
 2. Granting Permissions to tester-pipex.sh
 ```
