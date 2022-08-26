@@ -61,3 +61,10 @@ diff -U 3 cmp out && echo "OK\n" || echo "KO\n"
 ./pipex file1 ls "wc -m" out
 echo "test 9 lst echo"
 diff -U 3 cmp out && echo "OK\n" || echo "KO\n"
+
+test 10
+ruby -e 'puts "a" * 100000' > file1
+< file1 cat | cat > cmp
+./pipex file1 cat cat out
+echo "test 10 puts "a" * 100000"
+diff -U 3 cmp out && echo "OK\n" || echo "KO\n"
